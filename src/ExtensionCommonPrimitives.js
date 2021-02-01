@@ -5,7 +5,7 @@ export class DataCADPlugin extends ExtensionPlugin {
   static getRegistrationMeta() {
     return {
       type: 'extension',
-      target: 'PrimitiveLibraryPanel',
+      target: ['PrimitiveLibraryPanel', 'LiveDashPanel'],
       title: 'Расширение библиотеки примитивов Test',
       name: 'ExtensionCommonPrimitives',
     };
