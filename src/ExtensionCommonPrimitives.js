@@ -4,18 +4,11 @@ import { ExtensionPlugin } from '../../DTCD-SDK';
 export class DataCADPlugin extends ExtensionPlugin {
   static getRegistrationMeta() {
     return {
-      type: 'extensionPrimitives',
-      target: 'PanelPrimitiveLibrary',
+      type: 'extension',
+      target: 'PrimitiveLibraryPanel',
       title: 'Расширение библиотеки примитивов Test',
       name: 'ExtensionCommonPrimitives',
-      actions: [],
-      events: [],
-      requirements: ['yfiles.js'],
     };
-  }
-
-  static register(pluginRegistrator) {
-    pluginRegistrator.register(DataCADPlugin.getRegistrationMeta());
   }
 
   static getExtensionInfo() {
@@ -29,9 +22,11 @@ export class DataCADPlugin extends ExtensionPlugin {
     return result;
   }
 
-  constructor(guid, yFiles) {
-    this.getRegistrationMeta = DataCADPlugin.getRegistrationMeta;
-    this.getExtensionInfo = DataCADPlugin.getExtensionInfo;
+  constructor() {
+    super();
+
+    const { default: yFiles } = this.getDependence('yFiles');
+
     this.primitives = {};
     primitives.forEach(PrimitiveClass => {
       const { name } = PrimitiveClass.getPrimitiveInfo();
