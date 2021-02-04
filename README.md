@@ -1,6 +1,6 @@
 # ExtensionCommonPrimitives
 
-Plugin, which includes a set of common primitives for [PrimitiveLibraryPanel] (https://github.com/ISGNeuroTeam/DTCD-PrimitiveLibraryPanel)
+Plugin, which includes a set of common primitives for [PrimitiveLibraryPanel](https://github.com/ISGNeuroTeam/DTCD-PrimitiveLibraryPanel)
 
 ## Getting Started
 
@@ -34,7 +34,7 @@ make test
 ## Deployment
 
 ```
-In developing
+In development
 ```
 
 ## Built With
@@ -49,7 +49,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-Ronam Kuramshin (rkuramshin@isgneuro.com)
+Roman Kuramshin (rkuramshin@isgneuro.com)
 
 ## License
 
