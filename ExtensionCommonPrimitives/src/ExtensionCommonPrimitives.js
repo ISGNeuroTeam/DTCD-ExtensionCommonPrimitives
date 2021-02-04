@@ -1,12 +1,12 @@
 import primitives from './primitives';
-import { ExtensionPlugin } from '../../DTCD-SDK';
+import { ExtensionPlugin } from '../../../DTCD-SDK';
 
-export class DataCADPlugin extends ExtensionPlugin {
+export class ExtensionCommonPrimitives extends ExtensionPlugin {
   static getRegistrationMeta() {
     return {
       type: 'extension',
       target: ['PrimitiveLibraryPanel', 'LiveDashPanel'],
-      title: 'Расширение библиотеки примитивов Test',
+      title: 'Расширение библиотеки примитивов Common',
       name: 'ExtensionCommonPrimitives',
     };
   }
