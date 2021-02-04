@@ -1,36 +1,41 @@
 # ExtensionCommonPrimitives
 
+Plugin, which includes a set of common primitives for [PrimitiveLibraryPanel] (https://github.com/ISGNeuroTeam/DTCD-PrimitiveLibraryPanel)
+
 ## Getting Started
+
+In order to use this plugin you need to download it, build and move build-file to _plugins_ folder on DTCD server.
 
 ### Prerequisites
 
+```
+- Node.js LTS version (upper 12.0)
+```
+
 ### Installing
 
-```
-Give the example
-```
+- Installing dependencies for plugin and build it.
+  > 1. `cd ./ExtensionCommonPrimitives`
+  > 2. `npm i`
+  > 3. `npm run build`
 
-And repeat
+Also you can use makefile for this
 
 ```
-until finished
+make build
 ```
 
 ## Running the tests
 
-### Break down into end to end tests
-
 ```
-example
-```
-
-### And coding style tests
-
-```
- example
+make test
 ```
 
 ## Deployment
+
+```
+In developing
+```
 
 ## Built With
 
@@ -43,6 +48,8 @@ example
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
 ## Authors
+
+Ronam Kuramshin (rkuramshin@isgneuro.com)
 
 ## License
 
