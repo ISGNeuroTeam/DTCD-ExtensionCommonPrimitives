@@ -5,7 +5,7 @@ const watch = Boolean(process.env.ROLLUP_WATCH);
 
 const pluginName = 'ExtensionCommonPrimitives';
 
-const output = watch ? `./../DTCD/server/plugins/${pluginName}.js` : `./dist/${pluginName}.js`;
+const output = watch ? `./../../DTCD/server/plugins/${pluginName}.js` : `./dist/${pluginName}.js`;
 
 const plugins = [nodeResolve(), img()];
 
