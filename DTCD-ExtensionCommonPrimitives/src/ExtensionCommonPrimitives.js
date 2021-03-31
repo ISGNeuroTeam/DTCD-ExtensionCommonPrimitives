@@ -1,5 +1,5 @@
 import primitives from './primitives';
-import { ExtensionPlugin } from '../../../DTCD-SDK/DTCD-SDK/';
+import { ExtensionPlugin } from './../../DTCD-SDK/';
 
 export class ExtensionCommonPrimitives extends ExtensionPlugin {
   static getRegistrationMeta() {

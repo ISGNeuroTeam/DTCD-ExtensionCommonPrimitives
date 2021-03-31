@@ -4,22 +4,15 @@ Plugin, which includes a set of common primitives for [PrimitiveLibraryPanel](ht
 
 ## Getting Started
 
-In order to use this plugin you need to download it, build and move build-file to _plugins_ folder on DTCD server.
+In order to use this plugin you need to download it, build and move build folder to _plugins_ folder on DTCD server. For more information look at _Deployment_ section down below.
 
 ### Prerequisites
 
-```
-- Node.js LTS version (upper 12.0)
-```
+- [node.js](https://nodejs.org/en/) LTS version 14.x.x
+- `make` utility
+- [DTCD](https://github.com/ISGNeuroTeam/DTCD) application
 
-### Installing
-
-- Installing dependencies for plugin and build it.
-  > 1. `cd ./ExtensionCommonPrimitives`
-  > 2. `npm i`
-  > 3. `npm run build`
-
-Also you can use makefile for this
+### Building
 
 ```
 make build
@@ -31,10 +24,24 @@ make build
 make test
 ```
 
-## Deployment
+## Create build package
 
 ```
-In development
+make pack
+```
+
+## Clear dependencies
+
+```
+make clear
+```
+
+## Deployment
+
+Create package, then move archive to _plugins_ folder in DTCD server root folder and unarchive it with the following commands:
+
+```
+tar -zxf DTCD-ExtensionCommonPrimitives-*.tar.gz
 ```
 
 ## Built With
@@ -45,7 +52,9 @@ In development
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/ISGNeuroTeam/DTCD-LogSystem/tags).
+
+Also you can see the [CHANGELOG](CHANGELOG.md) file.
 
 ## Authors
 
