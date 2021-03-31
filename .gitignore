@@ -1,6 +1,6 @@
 .DS_Store
 node_modules/
-DTСD-SDK/
+DTCD-SDK/
 dist/
 build/
 *.tar.gz
