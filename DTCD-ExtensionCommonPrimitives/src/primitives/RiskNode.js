@@ -1,4 +1,4 @@
-import icon from './simple-node.svg';
+import icon from './risk.svg';
 
 export default class ObjectModelPrimitive {
   static getPrimitiveInfo() {
