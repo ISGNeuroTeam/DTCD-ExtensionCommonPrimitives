@@ -23,6 +23,13 @@ export default class ObjectModelPrimitive {
       label: 'Computer',
     });
     instance.layout = new this.yfiles.Rect(0, 0, 130, 60);
+    instance.tag = {
+      properties: {
+        prop1: {},
+        prop2: {},
+        prop3: {},
+      },
+    };
     return instance;
   }
 }
