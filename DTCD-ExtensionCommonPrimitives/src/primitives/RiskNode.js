@@ -3,8 +3,8 @@ import icon from './risk.svg';
 export default class ObjectModelPrimitive {
   static getPrimitiveInfo() {
     return {
-      title: 'RiskNode',
-      name: 'Узел рискового сценария',
+      title: 'Узел рискового сценария',
+      name: 'RiskNode',
       groups: ['ФГК'],
       icon,
     };
