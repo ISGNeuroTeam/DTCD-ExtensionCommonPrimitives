@@ -3,8 +3,8 @@ import icon from './plus.svg';
 export default class ObjectModelPrimitive {
   static getPrimitiveInfo() {
     return {
-      title: 'PlusOperation',
-      name: 'Узел сложения',
+      title: 'Узел сложения',
+      name: 'PlusOperation',
       groups: ['ФГК'],
       icon,
     };

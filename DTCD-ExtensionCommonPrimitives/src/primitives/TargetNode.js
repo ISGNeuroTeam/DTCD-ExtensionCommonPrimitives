@@ -3,8 +3,8 @@ import icon from './targetNode.svg';
 export default class ObjectModelPrimitive {
   static getPrimitiveInfo() {
     return {
-      title: 'TargetNode',
-      name: 'Узел цель',
+      title: 'Узел цель',
+      name: 'TargetNode',
       groups: ['ФГК'],
       icon,
     };

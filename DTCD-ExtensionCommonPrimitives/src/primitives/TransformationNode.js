@@ -3,8 +3,8 @@ import icon from './transform.svg';
 export default class ObjectModelPrimitive {
   static getPrimitiveInfo() {
     return {
-      title: 'TransformationNode',
-      name: 'Узел транформатор',
+      title: 'Узел транформатор',
+      name: 'TransformationNode',
       groups: ['ФГК'],
       icon,
     };
