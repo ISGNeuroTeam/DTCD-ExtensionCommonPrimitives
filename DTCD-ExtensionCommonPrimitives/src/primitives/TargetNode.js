@@ -24,15 +24,9 @@ export default class ObjectModelPrimitive {
     instance.layout = new this.yfiles.Rect(0, 0, 130, 60);
     instance.tag = {
       properties: {
-        prop1: {
-          value: null,
-        },
-        prop2: {
-          value: null,
-        },
-        prop3: {
-          value: null,
-        },
+        prop1: {},
+        prop2: {},
+        prop3: {},
       },
     };
     return instance;

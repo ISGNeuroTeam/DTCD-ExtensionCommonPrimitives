@@ -22,6 +22,13 @@ export default class ObjectModelPrimitive {
       fill: 'rgb(255, 140, 70)',
     });
     instance.layout = new this.yfiles.Rect(0, 0, 40, 40);
+    instance.tag = {
+      properties: {
+        prop1: {},
+        prop2: {},
+        prop3: {},
+      },
+    };
     return instance;
   }
 }
