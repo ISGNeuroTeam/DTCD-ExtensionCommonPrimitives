@@ -18,22 +18,34 @@ export default class ObjectModelPrimitive {
     const instance = new this.yfiles.SimpleNode();
     instance.style = new this.yfiles.ShapeNodeStyle({
       shape: this.yfiles.ShapeNodeShape.RECTANGLE,
-      stroke: 'rgb(255, 140, 70)',
+      stroke: 'rgb(0, 0, 30)',
       fill: 'rgb(255, 140, 70)',
     });
     instance.layout = new this.yfiles.Rect(0, 0, 130, 60);
     instance.tag = {
       properties: {
-        prop1: {
-          value: '',
+        name: {
+          expression: '',
           type: 'expression',
         },
-        prop2: {
-          value: '',
+        description: {
+          expression: '',
           type: 'expression',
         },
-        prop3: {
-          value: '',
+        target_value: {
+          expression: '',
+          type: 'expression',
+        },
+        dimenstion: {
+          expression: '',
+          type: 'expression',
+        },
+        risk_appetite: {
+          expression: '',
+          type: 'expression',
+        },
+        countermeasure_costs: {
+          expression: '',
           type: 'expression',
         },
       },

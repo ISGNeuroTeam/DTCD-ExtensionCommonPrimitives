@@ -12,3 +12,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - base primitives
+
+### Changed
+
+- changed properties names for relevant ones
+- changed stroke color to black on all primitives
