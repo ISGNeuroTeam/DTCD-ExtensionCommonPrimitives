@@ -17,3 +17,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - changed properties names for relevant ones
 - changed stroke color to black on all primitives
+- changed makefile for development mode
