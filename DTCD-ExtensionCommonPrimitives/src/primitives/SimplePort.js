@@ -11,7 +11,11 @@ export default class ObjectModelPrimitive {
   }
 
   constructor(yFiles) {
-    const { SimplePort, Rect } = yFiles.default;
-    Object.assign(this, new SimplePort());
+    this.yfiles = yFiles.default;
+  }
+
+  create() {
+    const { SimplePort } = this.yfiles;
+    return new SimplePort();
   }
 }
