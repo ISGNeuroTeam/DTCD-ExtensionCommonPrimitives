@@ -5,7 +5,7 @@ export default class ObjectModelPrimitive {
     return {
       title: 'Связь',
       name: 'SimpleEdge',
-      groups: ['Edge'],
+      groups: ['Связи'],
       icon,
     };
   }

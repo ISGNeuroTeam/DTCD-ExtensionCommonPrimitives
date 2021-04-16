@@ -5,7 +5,7 @@ export default class ObjectModelPrimitive {
     return {
       title: 'Порт',
       name: 'SimplePort',
-      groups: ['Common'],
+      groups: ['Порты'],
       icon,
     };
   }
