@@ -5,10 +5,10 @@ import TargetNode from './TargetNode';
 import RiskNode from './RiskNode';
 import TransformationNode from './TransformationNode';
 import MathOperationNode from './MathOperationNode';
-import SimplePort from './SimplePort';
+// import SimplePort from './SimplePort';
 
 export default [
-  SimplePort,
+  // SimplePort,
   SimpleEdge,
   TargetNode,
   MathOperationNode,
