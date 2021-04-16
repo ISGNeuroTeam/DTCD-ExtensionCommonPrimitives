@@ -24,14 +24,6 @@ export default class ObjectModelPrimitive {
     instance.layout = new this.yfiles.Rect(0, 0, 130, 60);
     instance.tag = {
       properties: {
-        name: {
-          expression: '',
-          type: 'expression',
-        },
-        description: {
-          expression: '',
-          type: 'expression',
-        },
         realization_description: {
           expression: '',
           type: 'expression',
@@ -45,10 +37,6 @@ export default class ObjectModelPrimitive {
           type: 'expression',
         },
         influence_percentage: {
-          expression: '',
-          type: 'expression',
-        },
-        aggregation_type: {
           expression: '',
           type: 'expression',
         },

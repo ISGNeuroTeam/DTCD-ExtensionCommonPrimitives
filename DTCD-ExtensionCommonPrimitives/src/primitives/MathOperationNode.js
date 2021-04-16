@@ -5,7 +5,7 @@ export default class ObjectModelPrimitive {
     return {
       title: 'Узел математики',
       name: 'MathOperation',
-      groups: ['ФГК'],
+      groups: ['Математические узлы'],
       icon,
     };
   }
