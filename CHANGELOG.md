@@ -12,12 +12,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - base primitives
-- port drop ability
+- in and out ports
 
 ### Changed
 
 - properties names for relevant ones
 - stroke color to black on all primitives
 - makefile for development mode
-- drop Edge process, this action doesn't create new ports on nodes
-- edge visualization in front of nodes
