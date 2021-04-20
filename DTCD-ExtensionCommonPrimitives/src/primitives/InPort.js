@@ -3,8 +3,8 @@ import icon from './dot.svg';
 export default class ObjectModelPrimitive {
   static getPrimitiveInfo() {
     return {
-      title: 'Порт',
-      name: 'SimplePort',
+      title: 'Порт IN',
+      name: 'InPort',
       groups: ['Порты'],
       icon,
     };
@@ -16,6 +16,16 @@ export default class ObjectModelPrimitive {
 
   create() {
     const { SimplePort } = this.yfiles;
-    return new SimplePort();
+    let port = new SimplePort();
+    port.tag = {
+      type: 'IN',
+      properties: {
+        status: {
+          expression: '',
+          type: 'expression',
+        },
+      },
+    };
+    return port;
   }
 }
