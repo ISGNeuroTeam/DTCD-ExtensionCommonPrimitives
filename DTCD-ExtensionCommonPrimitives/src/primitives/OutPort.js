@@ -4,7 +4,7 @@ export default class ObjectModelPrimitive {
   static getPrimitiveInfo() {
     return {
       title: 'Порт OUT',
-      name: 'OutPort',
+      name: 'outPort',
       groups: ['Порты'],
       icon,
     };
