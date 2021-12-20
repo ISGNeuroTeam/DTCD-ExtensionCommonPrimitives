@@ -1,4 +1,4 @@
-# ExtensionCommonPrimitives
+# DTCD-ExtensionCommonPrimitives
 
 Plugin, which includes a set of common primitives for [PrimitiveLibraryPanel](https://github.com/ISGNeuroTeam/DTCD-PrimitiveLibraryPanel)
 
@@ -52,13 +52,13 @@ tar -zxf DTCD-ExtensionCommonPrimitives-*.tar.gz
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/ISGNeuroTeam/DTCD-LogSystem/tags).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/ISGNeuroTeam/DTCD-ExtensionCommonPrimitives/tags).
 
 Also you can see the [CHANGELOG](CHANGELOG.md) file.
 
 ## Authors
 
-Roman Kuramshin (rkuramshin@isgneuro.com)
+- Roman Kuramshin (rkuramshin@isgneuro.com)
 
 ## License
 
