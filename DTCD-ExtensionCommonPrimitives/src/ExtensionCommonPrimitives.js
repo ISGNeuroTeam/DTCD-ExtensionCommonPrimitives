@@ -1,9 +1,11 @@
 import primitives from './primitives';
 import { ExtensionPlugin } from './../../DTCD-SDK/';
+import { version } from './../package.json';
 
 export class ExtensionCommonPrimitives extends ExtensionPlugin {
   static getRegistrationMeta() {
     return {
+      version,
       type: 'extension',
       target: ['PrimitiveLibraryPanel', 'LiveDashPanel'],
       title: 'Расширение библиотеки примитивов Common',
