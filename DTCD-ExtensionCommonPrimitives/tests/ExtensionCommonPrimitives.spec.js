@@ -11,6 +11,7 @@ describe('ExtensionCommonPrimitives:getRegistrationMeta', () => {
       target: expect.any(Array),
       title: 'Расширение библиотеки примитивов Common',
       name: 'ExtensionCommonPrimitives',
+      version: expect.any(String),
     });
   });
 });
