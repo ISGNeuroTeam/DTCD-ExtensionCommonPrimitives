@@ -10,7 +10,7 @@ In order to use this plugin you need to download it, build and move build folder
 
 - [node.js](https://nodejs.org/en/) LTS version 14.x.x
 - `make` utility
-- [DTCD](https://github.com/ISGNeuroTeam/DTCD) application
+- [DTCD](https://github.com/ISGNeuroTeam/DTCD) v0.6.0
 
 ### Building
 
