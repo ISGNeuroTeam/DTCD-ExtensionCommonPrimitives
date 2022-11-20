@@ -1,6 +1,6 @@
 {
   "name": "extension-common-primitives",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "",
   "main": "./src/ExtensionCommonPrimitives.js",
   "scripts": {
@@ -10,16 +10,15 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.13.14",
-    "@babel/preset-env": "^7.13.12",
-    "@rollup/plugin-commonjs": "^21.0.1",
-    "@rollup/plugin-image": "^2.0.5",
-    "@rollup/plugin-json": "^4.1.0",
-    "@rollup/plugin-node-resolve": "^11.0.0",
-    "babel-jest": "^26.6.3",
-    "jest": "^26.6.3",
-    "rollup": "^2.34.2"
+    "@babel/core": "7.13.14",
+    "@babel/preset-env": "7.13.12",
+    "@rollup/plugin-commonjs": "21.0.1",
+    "@rollup/plugin-image": "2.0.5",
+    "@rollup/plugin-json": "4.1.0",
+    "@rollup/plugin-node-resolve": "11.0.0",
+    "babel-jest": "26.6.3",
+    "jest": "26.6.3",
+    "rollup": "2.34.2"
   }
 }
