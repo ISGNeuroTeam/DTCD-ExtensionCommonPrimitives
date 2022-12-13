@@ -22,6 +22,7 @@ export default class ObjectModelPrimitive {
 
     instance.style = new GroupNodeStyle({
       tabFill: '#f0c808',
+      groupIcon: 'minus',
       contentAreaInsets: 20,
     });
 
