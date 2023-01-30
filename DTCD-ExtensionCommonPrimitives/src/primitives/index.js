@@ -7,5 +7,6 @@ import GroupNode from './GroupNode/GroupNode';
 // import MathOperationNode from './MathOperationNode';
 // import InPort from './InPort';
 // import OutPort from './OutPort';
+import HTMLNode from './HTMLNode/HTMLNode';
 
-export default [SimpleEdge, GroupNode];
+export default [SimpleEdge, GroupNode, HTMLNode];
