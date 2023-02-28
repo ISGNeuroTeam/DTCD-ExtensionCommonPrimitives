@@ -8,5 +8,6 @@ import GroupNode from './GroupNode/GroupNode';
 // import InPort from './InPort';
 // import OutPort from './OutPort';
 import HTMLNode from './HTMLNode/HTMLNode';
+import ChartNode from './ChartNode/ChartNode';
 
-export default [SimpleEdge, GroupNode, HTMLNode];
+export default [SimpleEdge, GroupNode, HTMLNode, ChartNode];

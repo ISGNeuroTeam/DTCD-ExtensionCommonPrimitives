@@ -1,0 +1,9 @@
+[
+  {
+    "name": "ChartJs",
+    "fileName": "chart.js",
+    "type": "esm",
+    "version": "4.2.1",
+    "source":"https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.2.1/chart.umd.min.js"
+  }
+]

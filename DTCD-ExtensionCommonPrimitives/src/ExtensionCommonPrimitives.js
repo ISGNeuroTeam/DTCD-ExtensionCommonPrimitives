@@ -10,6 +10,7 @@ export class ExtensionCommonPrimitives extends ExtensionPlugin {
       target: ['PrimitiveLibraryPanel', 'LiveDashPanel'],
       title: 'Расширение библиотеки примитивов Common',
       name: 'ExtensionCommonPrimitives',
+      withDependencies: true,
     };
   }
 

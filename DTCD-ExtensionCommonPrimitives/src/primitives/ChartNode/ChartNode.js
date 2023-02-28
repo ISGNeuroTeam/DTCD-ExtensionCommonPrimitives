@@ -1,12 +1,12 @@
 import icon from './icon.svg';
 import createHtmlLabelStyle from '../../utils/createHtmlLabelStyle';
 
-export default class HTMLNode {
+export default class ChartNode {
   static getPrimitiveInfo() {
     return {
       icon,
-      name: 'HTMLNode',
-      title: 'HTML',
+      name: 'ChartNode',
+      title: 'ChartNode',
       groups: ['HTML'],
     };
   }
@@ -35,9 +35,13 @@ export default class HTMLNode {
     const customLabelStyle = new HtmlLabelStyle(font);
 
     const properties = {
-      HTML: {
+      _init: {
         type: 'expression',
-        expression: '`<h1>HTMLNode</h1>`',
+        expression: ``,
+      },
+      _chartData: {
+        type: 'expression',
+        expression: `[]`,
       }
     };
     instance.tag = { customLabelStyle, properties };
