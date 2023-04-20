@@ -12,6 +12,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - new HTMLNode
 - new ChartNode
 
+### Removed 
+
+- unnecessary primitives
+
 ## [0.5.0]
 
 ### Added
