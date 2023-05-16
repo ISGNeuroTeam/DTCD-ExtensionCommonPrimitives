@@ -1,36 +1,36 @@
 import icon from './group-node.svg';
+import {AbstractNode} from '../../../../DTCD-SDK';
 
-export default class ObjectModelPrimitive {
+export default class ObjectModelPrimitive extends AbstractNode {
   static getPrimitiveInfo() {
     return {
       icon,
       name: 'Group',
       title: 'Группа',
-      groups: ['Группировки'],
+      groups: ['Стандартные элементы'],
     };
   }
 
   constructor(yFiles) {
-    this.yfiles = yFiles.default;
+    super(yFiles)
   }
 
   create() {
-    const { SimpleNode, Rect, GroupNodeStyle } = this.yfiles;
+    const { Rect, GroupNodeStyle } = this.yfiles;
 
-    const instance = new SimpleNode();
-    instance.layout = new Rect(0, 0, 300, 300);
+    this.instance.layout = new Rect(0, 0, 300, 300);
 
-    instance.style = new GroupNodeStyle({
+    this.instance.style = new GroupNodeStyle({
       tabFill: '#f0c808',
       groupIcon: 'minus',
       contentAreaInsets: 20,
     });
 
-    instance.tag = {
+    this.instance.tag = {
       type: 'group',
       properties: {},
     };
 
-    return instance;
+    return this.instance;
   }
 }

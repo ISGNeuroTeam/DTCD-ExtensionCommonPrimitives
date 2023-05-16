@@ -1,6 +1,6 @@
 import icon from './simple-label.svg';
 
-export default class ObjectModelPrimitive {
+export default class SimpleLabel {
   static getPrimitiveInfo() {
     return {
       title: 'Надпись',
