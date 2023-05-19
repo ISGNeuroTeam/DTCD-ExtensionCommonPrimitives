@@ -17,8 +17,8 @@ export default class SimpleEdge extends AbstractGraphElement {
   }
 
   create() {
-    this.instance = new this.yfiles.SimpleEdge();
-    this.instance.style = new this.yfiles.PolylineEdgeStyle();
+    this.instance = new this.yFiles.SimpleEdge();
+    this.instance.style = new this.yFiles.PolylineEdgeStyle();
     return  this.instance;
   }
 }
