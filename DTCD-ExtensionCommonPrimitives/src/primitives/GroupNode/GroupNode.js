@@ -16,7 +16,7 @@ export default class ObjectModelPrimitive extends AbstractNode {
   }
 
   create() {
-    const { Rect, GroupNodeStyle } = this.yfiles;
+    const { Rect, GroupNodeStyle } = this.yFiles;
 
     this.instance.layout = new Rect(0, 0, 300, 300);
 
