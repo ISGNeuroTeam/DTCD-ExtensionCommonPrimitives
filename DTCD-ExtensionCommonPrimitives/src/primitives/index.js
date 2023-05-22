@@ -1,6 +1,6 @@
 // import SimpleNode from './SimpleNode';
 import SimpleEdge from './SimpleEdge';
-import SimpleLabel from './SimpleLabel';
+// import SimpleLabel from './SimpleLabel';
 // import DashedEdge from './DashedEdge';
 // import TargetNode from './TargetNode';
 // import RichLabelNode from './RichLabelNode';
@@ -14,8 +14,7 @@ import RichLabelNode from './RichLabelNode/RichLabelNode';
 
 export default [
     RichLabelNode,
-    SimpleEdge, 
+    SimpleEdge,
     GroupNode,
     HTMLNode,
-    // ChartNode
 ];
