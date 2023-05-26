@@ -1,22 +1,24 @@
 import icon from './simple-edge.svg';
+import { AbstractGraphElement }  from '../../../DTCD-SDK'
 
-export default class ObjectModelPrimitive {
+export default class SimpleEdge extends AbstractGraphElement {
   static getPrimitiveInfo() {
     return {
       title: 'Связь',
       name: 'SimpleEdge',
-      groups: ['Связи'],
+      groups: ['Стандартные элементы'],
       icon,
     };
   }
+  instance;
 
   constructor(yFiles) {
-    this.yfiles = yFiles.default;
+    super(yFiles)
   }
 
   create() {
-    const instance = new this.yfiles.SimpleEdge();
-    instance.style = new this.yfiles.PolylineEdgeStyle();
-    return instance;
+    this.instance = new this.yFiles.SimpleEdge();
+    this.instance.style = new this.yFiles.PolylineEdgeStyle();
+    return  this.instance;
   }
 }
