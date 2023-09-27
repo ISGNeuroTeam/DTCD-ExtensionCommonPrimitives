@@ -28,7 +28,7 @@ export class ExtensionCommonPrimitives extends ExtensionPlugin {
   constructor() {
     super();
 
-    const yFiles = this.getDependence('yFiles');
+    const yFiles = this.getDependence('yfiles', 'esm', '2.5.0');
 
     this.primitives = {};
     primitives.forEach(PrimitiveClass => {

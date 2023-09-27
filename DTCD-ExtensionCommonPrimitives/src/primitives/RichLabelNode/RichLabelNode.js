@@ -1,5 +1,5 @@
 import icon from './icon.svg';
-import {NodeWithDefaultLabel} from '../../../../DTCD-SDK';
+import { NodeWithDefaultLabel } from '../../../../DTCD-SDK';
 
 export default class RichLabelNode extends NodeWithDefaultLabel {
   static getPrimitiveInfo() {
@@ -13,10 +13,9 @@ export default class RichLabelNode extends NodeWithDefaultLabel {
 
   constructor(yFiles) {
     super(yFiles)
-    this.yfiles = yFiles.default;
-
-    this.instance.tag.defaultLabel = ``
-    this.instance.tag.defaulInitialtLabel = ``
+    this.yfiles = yFiles;
+    this.instance.tag.defaultLabel = ``;
+    this.instance.tag.defaulInitialtLabel = ``;
   }
 
   create() {
@@ -28,7 +27,6 @@ export default class RichLabelNode extends NodeWithDefaultLabel {
       HorizontalTextAlignment,
       TextWrapping,
     } = this.yfiles;
-
 
     this.instance.layout = new Rect(0, 0, 294, 148);
     this.instance.style = new ShapeNodeStyle({
@@ -46,7 +44,7 @@ export default class RichLabelNode extends NodeWithDefaultLabel {
 
     const properties = {};
 
-    this.instance.tag = {...this.instance.tag, customLabelStyle, properties };
+    this.instance.tag = { ...this.instance.tag, customLabelStyle, properties };
 
     return this.instance;
   }

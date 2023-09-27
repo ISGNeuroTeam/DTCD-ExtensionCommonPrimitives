@@ -5,13 +5,13 @@ export default class ObjectModelPrimitive {
     return {
       title: 'Узел',
       name: 'SimpleNode',
-      groups: ['Node', 'Common'],
+      groups: ['Стандартные элементы'],
       icon,
     };
   }
 
   constructor(yFiles) {
-    this.yfiles = yFiles.default;
+    this.yfiles = yFiles;
   }
 
   create() {

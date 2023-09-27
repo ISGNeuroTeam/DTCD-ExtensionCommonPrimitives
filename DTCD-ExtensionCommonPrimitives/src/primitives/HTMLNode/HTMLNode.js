@@ -1,6 +1,6 @@
 import icon from './icon.svg';
 import createHtmlLabelStyle from '../../utils/createHtmlLabelStyle';
-import {AbstractNode} from '../../../../DTCD-SDK';
+import { AbstractNode } from '../../../../DTCD-SDK';
 
 export default class HTMLNode extends AbstractNode {
   static getPrimitiveInfo() {
@@ -15,12 +15,11 @@ export default class HTMLNode extends AbstractNode {
   #size = [200, 200];
 
   constructor(yFiles) {
-   super(yFiles)
+    super(yFiles);
   }
 
   create() {
     const { Rect, Font, ShapeNodeStyle } = this.yFiles;
-
 
     this.instance.layout = new Rect(0, 0, ...this.#size);
 
@@ -40,6 +39,7 @@ export default class HTMLNode extends AbstractNode {
         expression: '`<h1>HTMLNode</h1>`',
       }
     };
+
     this.instance.tag = { customLabelStyle, properties };
 
     return this.instance;

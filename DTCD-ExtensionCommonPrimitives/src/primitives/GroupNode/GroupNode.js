@@ -1,5 +1,5 @@
 import icon from './group-node.svg';
-import {AbstractNode} from '../../../../DTCD-SDK';
+import { AbstractNode } from '../../../../DTCD-SDK';
 
 export default class ObjectModelPrimitive extends AbstractNode {
   static getPrimitiveInfo() {
@@ -12,7 +12,7 @@ export default class ObjectModelPrimitive extends AbstractNode {
   }
 
   constructor(yFiles) {
-    super(yFiles)
+    super(yFiles);
   }
 
   create() {

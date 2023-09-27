@@ -5,14 +5,15 @@ export default class SimpleLabel {
     return {
       title: 'Надпись',
       name: 'SimpleLabel',
-      groups: ['Common', 'Label'],
+      groups: ['Стандартные элементы'],
       icon,
     };
   }
 
   constructor(yFiles) {
-    this.yfiles = yFiles.default;
+    this.yfiles = yFiles;
   }
+
   create(owner) {
     const instance = new this.yfiles.SimpleLabel(owner, 'label');
     return instance;

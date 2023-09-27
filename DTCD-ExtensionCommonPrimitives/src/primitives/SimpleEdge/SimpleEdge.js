@@ -1,5 +1,5 @@
 import icon from './simple-edge.svg';
-import { AbstractGraphElement }  from '../../../DTCD-SDK'
+import { AbstractGraphElement } from '../../../../DTCD-SDK';
 
 export default class SimpleEdge extends AbstractGraphElement {
   static getPrimitiveInfo() {
@@ -10,15 +10,16 @@ export default class SimpleEdge extends AbstractGraphElement {
       icon,
     };
   }
+
   instance;
 
   constructor(yFiles) {
-    super(yFiles)
+    super(yFiles);
   }
 
   create() {
     this.instance = new this.yFiles.SimpleEdge();
     this.instance.style = new this.yFiles.PolylineEdgeStyle();
-    return  this.instance;
+    return this.instance;
   }
 }

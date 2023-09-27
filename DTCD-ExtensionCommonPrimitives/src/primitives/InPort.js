@@ -11,7 +11,7 @@ export default class ObjectModelPrimitive {
   }
 
   constructor(yFiles) {
-    this.yfiles = yFiles.default;
+    this.yfiles = yFiles;
   }
 
   create() {

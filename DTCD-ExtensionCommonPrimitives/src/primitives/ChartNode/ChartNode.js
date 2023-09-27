@@ -15,7 +15,7 @@ export default class ChartNode {
   #size = [200, 200];
 
   constructor(yFiles) {
-    this.#yFiles = yFiles.default;
+    this.#yFiles = yFiles;
   }
 
   create() {
@@ -44,6 +44,7 @@ export default class ChartNode {
         expression: `[]`,
       }
     };
+
     instance.tag = { customLabelStyle, properties };
 
     return instance;
